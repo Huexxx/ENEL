@@ -3,23 +3,22 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
   xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
-  <Id>775091b3-e24a-4cf4-a65b-26976fda4f3c</Id>
+  <Id>58365168-5418-4411-8a75-30d573ad8f44</Id>
   <Version>1.0.0.0</Version>
-  <ProviderName>Contoso</ProviderName>
-  <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Hello world"/>
-  <Description DefaultValue="A simple hello world Office Add-in."/>
-  <IconUrl DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/excel-hello-world/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/excel-hello-world/assets/icon-64.png"/>
-  <SupportUrl DefaultValue="https://learn.microsoft.com/office/dev/add-ins/overview/office-add-in-code-samples"/>
+  <ProviderName>ENEL</ProviderName>
+  <DefaultLocale>es-ES</DefaultLocale>
+  <DisplayName DefaultValue="ENEL"/>
+  <Description DefaultValue="Prueba ENEL."/>
+  <IconUrl DefaultValue="https://github.com/Huexxx/ENEL/blob/main/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://github.com/Huexxx/ENEL/blob/main/assets/icon-64.png"/>
   <AppDomains>
-    <AppDomain>https://OfficeDev.github.io</AppDomain>
+    <AppDomain>https://github.com/Huexxx/ENEL</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Workbook"/>
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/excel-hello-world/taskpane.html"/>
+    <SourceLocation DefaultValue="https://github.com/Huexxx/ENEL/blob/main/taskpane.html"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -29,7 +28,6 @@
           <GetStarted>
             <Title resid="GetStarted.Title"/>
             <Description resid="GetStarted.Description"/>
-            <LearnMoreUrl resid="GetStarted.LearnMoreUrl"/>
           </GetStarted>
 
           <ExtensionPoint xsi:type="PrimaryCommandSurface">
@@ -65,17 +63,16 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/excel-hello-world/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/excel-hello-world/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/excel-hello-world/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://github.com/Huexxx/ENEL/blob/main/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://github.com/Huexxx/ENEL/blob/main/assets/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://github.com/Huexxx/ENEL/blob/main/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="http://go.microsoft.com/fwlink/?LinkId=276812"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/excel-hello-world/taskpane.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://github.com/Huexxx/ENEL/blob/main/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="GetStarted.Title" DefaultValue="Get started with the Hello world add-in!"/>
-        <bt:String id="CommandsGroup.Label" DefaultValue="Contoso Add-in"/>
+        <bt:String id="GetStarted.Title" DefaultValue="Get started with ENEL Hello world add-in!"/>
+        <bt:String id="CommandsGroup.Label" DefaultValue="Divitel Add-in"/>
         <bt:String id="TaskpaneButton.Label" DefaultValue="Hello world"/>
         <bt:String id="TaskpaneButton.SupertipTitle" DefaultValue="Hello world"/>
       </bt:ShortStrings>
